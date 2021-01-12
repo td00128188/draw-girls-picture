@@ -35,13 +35,11 @@
             // 
             // bt1
             // 
-            this.bt1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.bt1.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.bt1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.bt1.BackgroundImage = global::抽卡.Properties.Resources.抽卡按鈕;
-            this.bt1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.bt1.Location = new System.Drawing.Point(795, 401);
+            this.bt1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.bt1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.bt1.Location = new System.Drawing.Point(766, 316);
             this.bt1.Name = "bt1";
             this.bt1.Size = new System.Drawing.Size(120, 120);
             this.bt1.TabIndex = 0;
@@ -51,9 +49,9 @@
             // pb1
             // 
             this.pb1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.pb1.Location = new System.Drawing.Point(12, 80);
+            this.pb1.Location = new System.Drawing.Point(12, 12);
             this.pb1.Name = "pb1";
-            this.pb1.Size = new System.Drawing.Size(766, 442);
+            this.pb1.Size = new System.Drawing.Size(735, 424);
             this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb1.TabIndex = 1;
             this.pb1.TabStop = false;
@@ -64,12 +62,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(941, 534);
+            this.ClientSize = new System.Drawing.Size(898, 451);
             this.Controls.Add(this.pb1);
             this.Controls.Add(this.bt1);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "抽妹模擬器";
             ((System.ComponentModel.ISupportInitialize)(this.pb1)).EndInit();
             this.ResumeLayout(false);
 
