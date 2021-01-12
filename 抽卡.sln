@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "抽卡", "抽卡\抽卡.csproj", "{D7B4B551-835F-4448-A9E6-2501DFC50A18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7B4B551-835F-4448-A9E6-2501DFC50A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B4B551-835F-4448-A9E6-2501DFC50A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B4B551-835F-4448-A9E6-2501DFC50A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B4B551-835F-4448-A9E6-2501DFC50A18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C26B49C6-AFA5-4DF9-9806-C4D227278869}
+	EndGlobalSection
+EndGlobal
