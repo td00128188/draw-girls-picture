@@ -35,7 +35,7 @@
             // 
             // bt1
             // 
-            this.bt1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.bt1.BackColor = System.Drawing.Color.CornflowerBlue;
             this.bt1.BackgroundImage = global::抽卡.Properties.Resources.抽卡按鈕;
             this.bt1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.bt1.ForeColor = System.Drawing.SystemColors.ControlText;
@@ -60,7 +60,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.BackColor = System.Drawing.Color.CornflowerBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(898, 451);
             this.Controls.Add(this.pb1);
